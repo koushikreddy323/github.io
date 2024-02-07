@@ -39,14 +39,57 @@
             font-size: 24px;
             text-align: center;
             position: absolute;
-            padding: 10px;
+            padding: 10px 20px;
             background-color: aliceblue;
+            border: 2px solid rgb(6, 79, 121);
+            border-radius: 10px;
+
+            animation-name: anime;
+            animation-duration: 2s;
+            animation-timing-function: ease-in;
+
+            animation-iteration-count: infinite;
+
 
         }
+
+
+
+
+
+        @keyframes anime {
+            0% {
+                color: red;
+            }
+
+            20% {
+                color: green;
+            }
+
+            40% {
+                color: yellow;
+            }
+
+            60% {
+                color: blue;
+            }
+
+            80% {
+                color: violet;
+            }
+
+            100% {
+                color: pink;
+            }
+
+        }
+
+
 
         .heading {
             display: flex;
             justify-content: center;
+
         }
     </style>
 
